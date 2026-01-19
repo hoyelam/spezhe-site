@@ -4,47 +4,191 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spezhe - Voice-to-Text for macOS</title>
+  <meta name="description" content="Spezhe is a voice-first macOS app that turns speech into clean text anywhere you type. Private, fast, and built for daily work.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">
+        <img class="logo-mark" src="assets/app-logo.png" alt="Spezhe app icon">
+        Spezhe
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#workflow">Workflow</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#cta">Get started</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn primary" href="#cta">Coming soon</a>
+      </div>
+    </div>
+  </header>
+
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy reveal" style="--delay: 0.15s;">
-          <div class="brand-row">
-            <img class="brand-mark" src="assets/app-logo.png" alt="Spezhe app icon">
-            Spezhe
-          </div>
-          <div class="badge">Voice-to-text for macOS</div>
-          <h1 class="hero-title">No more typing,<br>just <span class="hero-accent">speak it.</span></h1>
-          <p class="hero-description">Press the hotkey, speak, watch, done.</p>
-          <p class="hero-subcopy"><span class="hero-highlight">Everything stays on your device.</span></p>
+        <div class="hero-copy">
+          <div class="eyebrow">Voice-first dictation for macOS</div>
+          <h1>Speak it. Spezhe writes it.</h1>
+          <p>
+            Reduce typing effort by speaking what you want to write anywhere with a single hotkey,
+            without ever leaving the flow.
+          </p>
           <div class="hero-actions">
-            <div class="button primary">Coming soon</div>
+            <a class="btn primary" href="#cta">Coming soon</a>
+            <a class="btn ghost" href="#features">Explore features</a>
           </div>
-          <div class="hero-note"><span>Works everywhere</span>Mail, ChatGPT, Cursor, Notes, and more.</div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Privacy</span>
+              <span class="meta-value">On-device by default</span>
+            </div>
+            <div>
+              <span class="meta-label">Built on and for</span>
+              <span class="meta-value">macOS and Native</span>
+            </div>
+          </div>
         </div>
-        <div class="hero-media reveal" style="--delay: 0.25s;">
-          <img class="hero-image" src="assets/image-demo.png" alt="Spezhe app preview">
+
+        <div class="hero-shot">
+          <img src="assets/feature-floating-window.png" alt="Spezhe dictation interface preview">
         </div>
       </div>
     </section>
 
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Everything you need to speak instead of type.</h2>
+          <p>
+            From quick emails to long-form documents, Spezhe keeps dictation precise, private, and ready
+            for daily work.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="glass card">
+            <h3>Instant hotkey</h3>
+            <p>Trigger dictation anywhere with a global shortcut, no app switching required.</p>
+          </article>
+          <article class="glass card">
+            <h3>App-wide capture</h3>
+            <p>Use Spezhe in Mail, Messages, Docs, ChatGPT, Notion, and every other text field.</p>
+          </article>
+          <article class="glass card">
+            <h3>On-device privacy</h3>
+            <p>Keep voice data local by default with private processing and no tracking.</p>
+          </article>
+          <article class="glass card">
+            <h3>Smart punctuation</h3>
+            <p>Transcription is highly accurate thanks to state-of-the-art models (Whisper).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="screens" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Your new speaking surface.</h2>
+          <p>Minimal UI, powerful control, and zero interruption.</p>
+        </div>
+
+        <div class="screens">
+          <div class="glass shot-large">
+            <img src="assets/image-demo.png" alt="Spezhe full dictation interface">
+          </div>
+          <div class="shot-row">
+            <figure class="glass shot-small">
+              <img src="assets/feature-floating-window.png" alt="Spezhe floating dictation window">
+              <figcaption>Dictate into any field without changing apps</figcaption>
+            </figure>
+            <figure class="glass shot-small">
+              <img src="assets/feature-sidebar-history.png" alt="Spezhe transcription history">
+              <figcaption>Browse transcription history to find recent drafts fast</figcaption>
+            </figure>
+            <figure class="glass shot-small">
+              <img src="assets/feature-replay.png" alt="Spezhe replay controls">
+              <figcaption>See transcriptions and replay your voice for quick edits</figcaption>
+            </figure>
+            <figure class="glass shot-small">
+              <img src="assets/feature-metadata.png" alt="Spezhe metadata details">
+              <figcaption>Spot interesting metadata like duration, app, and time</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>From voice to polished text in three moves.</h2>
+        </div>
+        <div class="workflow">
+          <div class="glass card">
+            <span class="step">01</span>
+            <h3>Press the hotkey</h3>
+            <p>Trigger Spezhe from anywhere with your global shortcut.</p>
+          </div>
+          <div class="glass card">
+            <span class="step">02</span>
+            <h3>Speak naturally</h3>
+            <p>Spezhe captures your words, punctuation, and intent in real time.</p>
+          </div>
+          <div class="glass card">
+            <span class="step">03</span>
+            <h3>Review and send</h3>
+            <p>Quickly edit or paste the cleaned transcript and keep moving.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section">
+      <div class="container">
+        <div class="glass cta">
+          <div>
+            <h2>Ready to replace typing with voice?</h2>
+            <p>Spezhe keeps dictation fast, private, and always within reach.</p>
+          </div>
+          <div class="cta-actions">
+            <span class="btn primary">Coming soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img class="brand-mark" src="assets/app-logo.png" alt="Spezhe app icon">
-        <div>Spezhe. Voice-to-text dictation for macOS.</div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">
+          <img class="logo-mark" src="assets/app-logo.png" alt="Spezhe app icon">
+          Spezhe
+        </div>
+        <p>Voice-to-text dictation for macOS, built to keep you focused.</p>
       </div>
-      <div class="footer-nav">
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#screens">Screenshots</a>
+        <a href="#workflow">Workflow</a>
         <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms of Use</a>
+        <a href="terms.html">Terms</a>
       </div>
+    </div>
+    <div class="container footer-meta">
+      <span>© 2026 Spezhe. All rights reserved.</span>
     </div>
   </footer>
 </body>
