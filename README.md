@@ -1,6 +1,6 @@
-# Spetra Website
+# Spezhe Website
 
-Static marketing site for Spetra, designed for GitHub Pages.
+Static marketing site for Spezhe, designed for GitHub Pages.
 
 ## Structure
 - `index.html`: Marketing landing page
