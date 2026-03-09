@@ -43,8 +43,9 @@
       <description><![CDATA[
         <h2>What's New in 2026.2</h2>
         <ul>
-          <li>Removed private integrations and tracking for the open source release</li>
-          <li>Moved direct downloads and GitHub releases to the public Spezhe repository</li>
+          <li>Voice-first dictation for macOS with a fast global shortcut workflow</li>
+          <li>On-device transcription, summaries, and searchable history</li>
+          <li>Direct download build with automatic Sparkle updates</li>
         </ul>
       ]]></description>
       <pubDate>Mon, 09 Mar 2026 18:34:01 +0100</pubDate>
