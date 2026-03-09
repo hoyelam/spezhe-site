@@ -36,22 +36,22 @@
     -->
 
     <item>
-      <title>Version 2026.1</title>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>2026.1</sparkle:shortVersionString>
+      <title>Version 2026.2</title>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>2026.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in 2026.1</h2>
+        <h2>What's New in 2026.2</h2>
         <ul>
-          <li>Added Sparkle for automatic updates</li>
-          <li>Direct download option outside App Store</li>
+          <li>Removed private integrations and tracking for the open source release</li>
+          <li>Moved direct downloads and GitHub releases to the public Spezhe repository</li>
         </ul>
       ]]></description>
-      <pubDate>Sat, 24 Jan 2026 15:41:58 +0100</pubDate>
+      <pubDate>Mon, 09 Mar 2026 18:34:01 +0100</pubDate>
       <enclosure
-        url="https://github.com/hoyelam/Spezhe/releases/download/v2026.1/Spezhe-2026.1.dmg"
-        sparkle:edSignature="Q94YSKNRny0bZv/BYoJ8Wq9nhp4HfWYHAazefLP6weQCWFOFU8+ZOqwfLPy1bqfU67yVxGj/Ud4oB6RJNW+yBA=="
-        length="6427144"
+        url="https://github.com/hoyelam/Spezhe/releases/download/v2026.2/Spezhe-2026.2.dmg"
+        sparkle:edSignature="6Dxy3TMJW4fmNbkP4qZ7Hw08lBfxVj4K1tLF/vfaOm9rCDwlAx8aKO+ORVw2sEV0/2jHlh1jnjOTNU/ok5H4CA=="
+        length="6170319"
         type="application/octet-stream"/>
     </item>
 
