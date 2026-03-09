@@ -28,7 +28,7 @@
       ]]></description>
       <pubDate>Fri, 24 Jan 2026 12:00:00 +0000</pubDate>
       <enclosure
-        url="https://github.com/hoyelam/spezhe-site/releases/download/v2026.1/Spezhe-2026.1.dmg"
+        url="https://github.com/hoyelam/Spezhe/releases/download/v2026.1/Spezhe-2026.1.dmg"
         sparkle:edSignature="BASE64_SIGNATURE_FROM_FASTLANE"
         length="12345678"
         type="application/octet-stream"/>
@@ -49,7 +49,7 @@
       ]]></description>
       <pubDate>Sat, 24 Jan 2026 15:41:58 +0100</pubDate>
       <enclosure
-        url="https://github.com/hoyelam/spezhe-site/releases/download/v2026.1/Spezhe-2026.1.dmg"
+        url="https://github.com/hoyelam/Spezhe/releases/download/v2026.1/Spezhe-2026.1.dmg"
         sparkle:edSignature="Q94YSKNRny0bZv/BYoJ8Wq9nhp4HfWYHAazefLP6weQCWFOFU8+ZOqwfLPy1bqfU67yVxGj/Ud4oB6RJNW+yBA=="
         length="6427144"
         type="application/octet-stream"/>
